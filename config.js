@@ -20,7 +20,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Lewis and Clark Trail Travois Road',
-            image: './hphs_photos/travois.jpg',
+            image: 'nps/hphs_photos/travois.jpg',
             description: 'Image Source: National Park Service <br> <a href = "https://www.nps.gov/places/travois-road-wa.htm" target="_blank"> Lewis and Clark Trail Travois Road website </a>',
             location: {
                 center: [-117.477451, 46.463794],
