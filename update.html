@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Lewis and Clark Trail - OR WA</title>
+    <title>Lewis and Clark Trail - OR/WA</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
@@ -24,7 +24,11 @@
         }
         a, a:hover, a:visited {
             color: #4d934d;
-            text-align: center;                   
+            text-align: center;
+        }
+        b, b:hover, b:visited {
+            color: #893003;
+            text-align: center; 
         }
         #map {
             top:0;
@@ -155,8 +159,9 @@
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
-        .title {
-            color: #894004 
+        title {
+            font-weight: 400;
+            color: #894004;
                }
 
         </style>
